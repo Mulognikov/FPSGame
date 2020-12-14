@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4db6514a2e4e194bbd1c6bdae54f388, type: 3}
+  m_Name: AbilityUbgradeTileSet
+  m_EditorClassIdentifier: 
+  TileWeights:
+    Weights:
+    - Value: {fileID: 2231737978128289301, guid: f755fd789c189df4e8ed9eb3bbe405ea,
+        type: 3}
+      MainPathWeight: 1
+      BranchPathWeight: 1
+      DepthWeightScale:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -0.038344223
+          outSlope: -0.038344223
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.061363637
+        - serializedVersion: 3
+          time: 0.20128843
+          value: 0.0017295182
+          inSlope: 0.02919364
+          outSlope: 0.02919364
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.29431885
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.41289052
+          value: 0.38923308
+          inSlope: 4.4383574
+          outSlope: 4.4383574
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.051315352
+        - serializedVersion: 3
+          time: 0.59864026
+          value: 0.90782106
+          inSlope: 0.9043166
+          outSlope: 0.9043166
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.13079557
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0.072652586
+          outSlope: 0.072652586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.16138321
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      TileSet: {fileID: 11400000}
+  LockPrefabs: []
